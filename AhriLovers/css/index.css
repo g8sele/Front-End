@@ -1,0 +1,59 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rebeccapurple;
+    text-align: center;
+
+}
+h1{ 
+    color: rebeccapurple;
+    font-size: 70px;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    width: 300px;
+   border-radius: 300px;
+}
+
+hr{
+    background: rgb(134, 4, 241);
+    height: 20px;
+    width: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+video{ 
+    width: 50%;
+    display: block;
+    margin: auto; 
+}

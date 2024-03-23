@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    }
+    
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: rgb(255, 254, 254);
+        font-size: 60px;
+    }
+    
+    video{
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logo{
+        margin: auto;
+        text-align: center;
+        padding: auto;
+    }
+    
+    .IMAGENS{ 
+        width:auto;
+        margin:auto;
+        text-align: center;
+    }
+    
+    hr{
+        width: 50%;
+        height: 20px;
+        display: block;
+        background-color:  rgb(196, 44, 69);
+    }
+    
+    #passan{
+        width: 50%;
+        display: block;
+        margin: auto;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 60px;
+    
+    }
+    
+    p{
+       
+        width: 50%;
+        text-align: justify;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }

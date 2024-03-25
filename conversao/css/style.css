@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background: linear-gradient(orange, yellow, blue);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url('/images/5-dolar-real.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.central{
+    width: 400px;
+    height: 150px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.central input{
+    width: 300px;
+    height: 25px;
+    background: gray;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.central input:focus{
+    background: rgb(75, 74, 74);
+}
+
+.central #calcular{
+    background: rgb(223, 87, 8);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.central #calcular:hover{
+    background: rgb(165, 64, 6);
+    border-radius: 12px;
+}
+
+.central span{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}

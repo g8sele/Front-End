@@ -1,0 +1,65 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('/image/livros.jpeg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    flex-direction: column;
+    display: flex;
+}
+
+.elementos{
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    width: auto;
+    height: 350px;
+}
+
+label{
+    font-style:oblique;
+    font-size: 20px;
+    margin-left: 25px;
+    text-align: center;
+    color: white;
+}
+
+#text1{
+   font-style: italic;
+   font-size: 45px;
+   color: #f33f09;
+}
+
+#text2{
+    font-size: 40px;
+    font-style: bold;
+    color: #f33f09;
+}
+
+button{
+    border: solid 5px rgb(243, 63, 9);
+    border-radius: 25px;
+    color: rgb(243, 63, 9);
+    background-color: white;
+    transition: 0.5s;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    cursor: pointer;
+}
+
+button :hover{
+    background-color: rgb(226, 66, 18);
+    color: white;
+}
+
+input{
+    border: solid 5px rgb(243, 63, 9);
+    border-radius: 25px;
+    font-size: 15px;
+}
+

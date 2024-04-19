@@ -1,0 +1,96 @@
+body{
+    background-image: url('/images/fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    animation: fundo 5s infinite;
+}
+
+#pucca{
+    position: absolute;
+    left: -100%;
+    top: 55%;
+    height: 200px; 
+    animation: correr 15s infinite;
+}
+
+#garu{
+    position: absolute;
+    left: 54%;
+    top: 75%;
+    height: 150px; 
+}
+
+#gatinho{
+    position: absolute;
+    left: 70%;
+    top: 80%;
+    height: 100px; 
+}
+
+@keyframes correr{
+    0%{
+        left: -100%;
+        top: 55%;
+    }
+
+    20%{
+        left: 50%;
+        top: 55%;
+    }
+
+    100%{
+        left: 100%;
+        top: 55%
+    }
+}
+
+@keyframes fundo{
+    0%{
+        background-color: #0459ce;
+    }
+
+    5%{
+        background-color: #0d94f2;
+    }
+
+    10%{
+        background-color: #5f6d15;
+    }
+    
+    20%{
+        background-color: #991705;
+    }
+
+    30%{
+        background-color: #006a83;
+    }
+
+    40%{
+        background-color: #1aa8aa;
+    }
+    
+    50%{
+        background-color: #848b78;
+    }
+
+    60%{
+        background-color: #5f6d15;
+    }
+    
+    70%{
+        background-color: #991705;
+    }
+
+    80%{
+        background-color: #006a83;
+    }
+
+    90%{
+        background-color: #1aa8aa;
+    }
+    
+    100%{
+        background-color: #848b78;
+    }
+}

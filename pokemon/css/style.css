@@ -1,0 +1,108 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    animation: fundo 5s infinite;
+}
+
+#pokemon1{
+    position: absolute;
+    left: 100%;
+    top: 40%;
+    height: 150px; 
+    animation: voar 10s infinite;
+}
+
+#pokemon2{
+    position: absolute;
+    left: -100%;
+    top: 55%;
+    height: 150px; 
+    animation: voar2 10s infinite;
+}
+
+@keyframes voar{
+    0%{
+        left: 100%;
+        top: 40%;
+    }
+
+    20%{
+        left: 50%;
+        top: 40%;
+    }
+
+    100%{
+        left: -100%;
+        top: 40%
+    }
+}
+
+
+@keyframes voar2{
+    0%{
+        left: -100%;
+        top: 55%;
+    }
+
+    20%{
+        left: 50%;
+        top: 55%;
+    }
+
+    100%{
+        left: 100%;
+        top: 55%
+    }
+}
+
+
+@keyframes fundo{
+    0%{
+        background-color: #f11f03;
+    }
+
+    5%{
+        background-color: #eb8f05;
+    }
+
+    10%{
+        background-color: #66b30e;
+    }
+    
+    20%{
+        background-color: #0a2d8b;
+    }
+
+    30%{
+        background-color: #53049e;
+    }
+
+    40%{
+        background-color: #9b0669;
+    }
+    
+    50%{
+        background-color: #e90f46;
+    }
+
+    60%{
+        background-color: #ee0404;
+    }
+
+    70%{
+        background-color: #f8760b;
+    }
+
+    80%{
+        background-color: #ffbb00;
+    }
+
+    90%{
+        background-color: #0024f0;
+    }
+    
+    100%{
+        background-color: #9900ff;
+    }
+}
